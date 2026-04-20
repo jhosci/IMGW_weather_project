@@ -37,6 +37,6 @@ To launch the application: `python main.py`
 A sample dataset is provided in the `./data_example` directory. To test the application's filtering and charting capabilities with historical data immediately, copy the contents of this folder into the `./data` directory.
 
 ### 7. Future Roadmap
-- Implementation of multi-language support (I18n).
-- Migration from hardcoded paths to a configuration file (`config.ini` or `.env`).
+- Implementation of multi-language support.
+- Migration from hardcoded UI labels to a configuration file.
 - Implementation of `QThreads` for asynchronous API calls to prevent UI freezing.
