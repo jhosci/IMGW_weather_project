@@ -146,7 +146,7 @@ class DisplayStatus(QWidget):
             self.label_offline_save.setStyleSheet("color: red;")
 
         # NEW RECORDS
-        self.label_new_records.setText(f"Nowych zapisów: [{status["new_records"]}]")
+        self.label_new_records.setText(f"Nowych zapisów: [{status['new_records']}]")
         if status["new_records"] == 0 and status["online_connection"]: 
             QMessageBox.information(self, "Dane aktualne", "Nie znaleziono nowych danych.")
 
