@@ -242,7 +242,7 @@ class SqlDataFilters():
         elif date_start:
             query += " AND data_pomiaru = ?"
             parameters.append(date_start) 
-        elif weekday is not None and weekday:
+        elif weekday is not None:
             query += " AND CAST(strftime('%w', data_pomiaru) AS INTEGER) = ?"
             parameters.append(weekday)
         
